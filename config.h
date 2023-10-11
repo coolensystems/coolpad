@@ -1,0 +1,33 @@
+#pragma once
+#define DEBOUNCE 10
+/* Underlight configuration
+ */
+#define RGBLIGHT_EFFECT_BREATHE_CENTER 1
+#define RGBLIGHT_EFFECT_BREATHE_MAX 200
+#define RGBLIGHT_EFFECT_CHRISTMAS_INTERVAL 666*2
+#define RGBLIGHT_EFFECT_CHRISTMAS_STEP 1
+#define RGBLIGHT_EFFECT_KNIGHT_LENGTH 3   // How many LEDs wide to light up
+#define RGBLIGHT_EFFECT_KNIGHT_OFFSET 2   // The led to start at
+#define RGBLIGHT_EFFECT_KNIGHT_LED_NUM 5  // How many LEDs to travel
+#define RGBLIGHT_EFFECT_SNAKE_LENGTH 4    // How many LEDs wide to light up
+
+
+#define NUMBER_OF_ENCODERS 1
+#define ENCODERS_PAD_A { GP4 }
+#define ENCODERS_PAD_B { GP5 }
+#define ENCODER_RESOLUTION 4
+
+/* Screen */
+#define WS2812_DI_PIN GP13
+#define OLED_BRIGHTNESS 128
+#define I2C1_SDA_PIN GP7
+#define I2C1_SCL_PIN GP6
+#define OLED_DISPLAY_128X64
+#define SCREENSAVE_DELAY 480000
+
+#define RGBLED_NUM 5
+#define RGBLIGHT_DEFAULT_HUE 100
+#define NOP_FUDGE 0.4
+
+//#define OLED_DISPLAY_ADDRESS 0x3C
+//#define RGBLIGHT_ANIMATIONS

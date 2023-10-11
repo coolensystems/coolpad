@@ -1,0 +1,9 @@
+# This file intentionally left blank
+BOOTMAGIC_ENABLE = no
+ENCODER_ENABLE = yes
+RGBLIGHT_ENABLE = yes
+WS2812_DRIVER = vendor
+SLEEP_LED_ENABLE = no
+OLED_ENABLE = yes
+ENCODER_MAP_ENABLE = yes
+VIA_ENABLE = no
