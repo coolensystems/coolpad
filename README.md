@@ -7,3 +7,4 @@ TODO:
 - ADD VIA/VIAL support for RGB
 - ADD VIA/VIAL support for ENCODER
 
+# coolpad
